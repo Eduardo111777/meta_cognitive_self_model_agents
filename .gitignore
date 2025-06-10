@@ -1,20 +1,75 @@
-# Ignore Python bytecode files
+# ================================
+# Python - General
+# ================================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Ignore virtual environment folders
+# ================================
+# Virtual Environments
+# ================================
 .venv/
 venv/
+ENV/
+env/
 
-# Ignore Jupyter Notebook checkpoints
+# ================================
+# Jupyter Notebook checkpoints
+# ================================
 .ipynb_checkpoints/
 
-# Ignore VSCode settings
+# ================================
+# VSCode settings
+# ================================
 .vscode/
 
-# Ignore output folders
-outputs/
+# ================================
+# Outputs folder structure
+# ================================
 
-# Ignore OS files
+# Do not ignore the outputs folder itself
+!outputs/
+
+# Do not ignore the subfolders inside outputs
+!outputs/logs/
+!outputs/metrics/
+!outputs/models/
+!outputs/scientific_metrics/
+!outputs/visualizations/
+
+# Ignore all files inside those subfolders
+outputs/logs/*
+outputs/metrics/*
+outputs/models/*
+outputs/scientific_metrics/*
+outputs/visualizations/*
+
+# ================================
+# Operating System files
+# ================================
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
+
+# ================================
+# Logs and temporary files
+# ================================
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# ================================
+# Build artifacts
+# ================================
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Others (optional, add more if needed)
+# ================================
+
