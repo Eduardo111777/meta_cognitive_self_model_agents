@@ -37,12 +37,7 @@ env/
 !outputs/scientific_metrics/
 !outputs/visualizations/
 
-# Ignore all files inside those subfolders
-outputs/logs/*
-outputs/metrics/*
-outputs/models/*
-outputs/scientific_metrics/*
-outputs/visualizations/*
+
 
 # ================================
 # Operating System files
