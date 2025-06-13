@@ -5,14 +5,14 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.env_util import make_vec_env
 
 class HybridPolicy:
-    def __init__(self, env, total_timesteps=20000, hybrid_ratio=0.5):
+    def __init__(self, env, hybrid_ratio, total_timesteps):
         """
         Initialize Hybrid Policy.
         
         Args:
             env: Gym environment
-            total_timesteps: Number of PPO training timesteps
             hybrid_ratio: Probability of using PPO policy vs. random action
+            total_timesteps: Number of PPO training timesteps
         """
         self.env = env
         self.hybrid_ratio = hybrid_ratio

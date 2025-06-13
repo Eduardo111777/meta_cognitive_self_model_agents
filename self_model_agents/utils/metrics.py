@@ -1,7 +1,6 @@
 # === Scientific metrics for SelfModel experiments ===
 
 import pandas as pd
-import os
 
 def compute_scientific_metrics(metrics_csv_path):
     df = pd.read_csv(metrics_csv_path)
@@ -32,16 +31,10 @@ def compute_scientific_metrics(metrics_csv_path):
         "time_in_exploration": time_in_exploration
     }
 
-    # Save results to new CSV
-    os.makedirs("outputs/scientific_metrics", exist_ok=True)
-    save_name = metrics_csv_path.replace("metrics/gridworld_metrics_", "scientific_metrics/scientific_metrics_")
-    save_name = save_name.replace(".csv", ".csv")
-
+    # Return results dataframe (the caller will save it)
     df_results = pd.DataFrame([results])
-    df_results.to_csv(save_name, index=False)
-
-    print(f"\n✅ Scientific metrics saved to: {save_name}\n")
-    print(df_results)
-
     return df_results
+
+
+
 
