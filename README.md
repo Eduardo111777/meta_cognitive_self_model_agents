@@ -3,9 +3,6 @@
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
-A modular framework for building Self-Modeling Agents with explicit internal state representation and adaptive cognitive control, as described in:
-
-> Mozo, H. E. (2025). Neural-Augmented Self-Modeling Agents: Design, Implementation, and Evaluation of a Modular Approach to Meta-Cognitive Artificial Intelligence. *Journal of Artificial Intelligence Research (JAIR)*, Vol. 83, Article X. https://jair.org/
 
 ---
 
@@ -144,7 +141,7 @@ This project is licensed under the **Apache 2.0 License** — see the [LICENSE](
 
 This framework was developed as part of:
 
-> Mozo, H. E. (2025). Neural-Augmented Self-Modeling Agents: Design, Implementation, and Evaluation of a Modular Approach to Meta-Cognitive Artificial Intelligence. *JAIR*, Vol. 83.
+> Mozo, H. E. (2025). A Modular Software Framework for Neural-Augmented Self-Modeling Agents with Explicit Internal State Representation
 
 If you use this framework in academic work, please cite the paper. 📚
 
