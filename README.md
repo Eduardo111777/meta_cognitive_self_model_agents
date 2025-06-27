@@ -141,8 +141,24 @@ This project is licensed under the **Apache 2.0 License** — see the [LICENSE](
 
 This framework was developed as part of:
 
-> Mozo, H. E. (2025). A Modular Software Framework for Neural-Augmented Self-Modeling Agents with Explicit Internal State Representation
+> If you use or reference this project in your research or software, please cite the following preprint:
 
-If you use this framework in academic work, please cite the paper. 📚
+### APA (7th edition)
+Mozo, H. E. (2025, June 27). *A Modular Software Framework for Neural-Augmented Self-Modeling Agents with Explicit Internal State Representation*. TechRxiv. https://doi.org/10.36227/techrxiv.175100030.06187560/v1
+
+### IEEE
+H. E. Mozo, "A Modular Software Framework for Neural-Augmented Self-Modeling Agents with Explicit Internal State Representation," *TechRxiv*, June 27, 2025. [Online]. Available: https://doi.org/10.36227/techrxiv.175100030.06187560/v1
+
+### BibTeX
+```bibtex
+@misc{mozo2025modular,
+  author       = {Hector E. Mozo},
+  title        = {A Modular Software Framework for Neural-Augmented Self-Modeling Agents with Explicit Internal State Representation},
+  year         = {2025},
+  month        = {June},
+  publisher    = {TechRxiv},
+  doi          = {10.36227/techrxiv.175100030.06187560.v1},
+  url          = {https://doi.org/10.36227/techrxiv.175100030.06187560/v1}
+}
 
 ---
